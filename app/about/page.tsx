@@ -125,7 +125,7 @@ const About = () => {
             */}
 
             <div className="mx-auto card lg:card-side max-w-screen-lg w-4/5 bg-rose-100 shadow-xl mb-8">
-                <figure><img src="/founderPic.jpeg" alt="Kara"/></figure>
+                <figure><img src="/founderPic.jpeg" alt="Kara" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">
                         Kara O&apos;Brien
