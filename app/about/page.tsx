@@ -1,6 +1,13 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import EmblaCarousel from './EmblaCarousel.tsx';
+import { EmblaOptionsType } from 'embla-carousel';
+import './embla.css';
+
+const OPTIONS: EmblaOptionsType = { loop: true }
+const SLIDE_COUNT = 7
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 const About = () => {
 
@@ -83,6 +90,9 @@ const About = () => {
 
             <h2 className="max-w-screen-lg w-4/5 mx-auto my-2 text-center text-3xl">Animal Lives Are Important.</h2>
 
+            <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+
+            {/*
             <div className="md:max-w-screen-lg lg:max-w-screen-lg w-4/5 mx-auto mt-6">
             <div id="carousel" className="carousel carousel-center rounded-box h-96 max-w-full">
                 <div id="item1" className="carousel-item">
@@ -112,6 +122,7 @@ const About = () => {
                     <button onClick={handleClickRight} className="btn btn-xs bg-rose-100 hover:bg-rose-200"><a href={"#item" + count}>&gt;</a></button>
                 </div>
             </div>
+            */}
 
             <div className="mx-auto card lg:card-side max-w-screen-lg w-4/5 bg-rose-100 shadow-xl mb-8">
                 <figure><img src="/founderPic.jpeg" alt="Kara"/></figure>
