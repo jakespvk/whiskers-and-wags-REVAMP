@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
-import EmblaCarousel from './EmblaCarousel.tsx';
+import EmblaCarousel from './EmblaCarousel';
 import { EmblaOptionsType } from 'embla-carousel';
 import './embla.css';
 
