@@ -83,28 +83,28 @@ const About = () => {
 
             <h2 className="max-w-screen-lg w-4/5 mx-auto my-2 text-center text-3xl">Animal Lives Are Important.</h2>
 
-            <div className="max-w-screen-lg w-4/5 mx-auto">
-            <div id="carousel" className="carousel carousel-center rounded-box h-96 w-auto mt-6">
+            <div className="max-w-screen-lg w-4/5 mx-auto mt-6">
+            <div id="carousel" className="carousel carousel-center rounded-box h-96">
                 <div id="item1" className="carousel-item">
-                    <img src="/Hashbrown.jpeg" alt="Pizza" />
+                    <img src="/Hashbrown.jpeg" alt="Hashbrown" />
                 </div> 
                 <div id="item2" className="carousel-item">
-                    <img src="/jerry2.png" alt="Pizza" />
+                    <img src="/jerry2.png" alt="Jerry2" />
                 </div> 
                 <div id="item3"className="carousel-item">
-                    <img src="/Stray.jpg" alt="Pizza" />
+                    <img src="/Stray.jpg" alt="Stray" />
                 </div> 
                 <div id="item4" className="carousel-item">
-                    <img src="/jerry1.png" alt="Pizza" />
+                    <img src="/jerry1.png" alt="Jerry" />
                 </div> 
                 <div id="item5" className="carousel-item">
-                    <img src="/Dom2.jpg" alt="Pizza" />
+                    <img src="/Dom2.jpg" alt="Dom" />
                 </div> 
                 <div id="item6" className="carousel-item">
-                    <img src="/Dwayne.jpg" alt="Pizza" />
+                    <img src="/Dwayne.jpg" alt="Dwayne" />
                 </div> 
                 <div id="item7" className="carousel-item">
-                    <img src="/Shakira1.jpg" alt="Pizza" />
+                    <img src="/Shakira1.jpg" alt="Shakira" />
                 </div>
             </div>
                 <div className="flex justify-center w-full py-2 gap-2 mb-8">
