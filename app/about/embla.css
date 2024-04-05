@@ -1,7 +1,7 @@
 .embla {
   margin: auto;
   --slide-height: 19rem;
-  --slide-spacing: 0rem;
+  --slide-spacing: 0.1rem;
   --slide-size: 30%;
   margin-top: 1.5rem;
 }
@@ -12,7 +12,7 @@
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
     .embla {
-        --slide-size: 80%;
+        --slide-size: 55%;
     }
 }
 .embla__viewport {
