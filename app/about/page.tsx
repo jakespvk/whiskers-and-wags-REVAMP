@@ -84,7 +84,7 @@ const About = () => {
             <h2 className="max-w-screen-lg w-4/5 mx-auto my-2 text-center text-3xl">Animal Lives Are Important.</h2>
 
             <div className="max-w-screen-lg w-4/5 mx-auto">
-            <div id="carousel" className="carousel carousel-center rounded-box h-96 mt-6">
+            <div id="carousel" className="carousel carousel-center rounded-box h-96 w-auto mt-6">
                 <div id="item1" className="carousel-item">
                     <img src="/Hashbrown.jpeg" alt="Pizza" />
                 </div> 
