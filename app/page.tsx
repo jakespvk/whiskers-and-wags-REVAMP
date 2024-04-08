@@ -1,6 +1,7 @@
 export default function Home() {
     return (
         <>
+            <meta name="theme-color" content="#333a41"/>
             <div className="hero min-h-screen" style={{backgroundImage: "url('/DomCropped.jpg')"}}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
