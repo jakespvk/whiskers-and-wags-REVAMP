@@ -9,7 +9,7 @@ const OPTIONS: EmblaOptionsType = { loop: true }
 const SLIDE_COUNT = 7
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
-const About = () => {
+const Page = () => {
 
     const [count, setCount] = useState(1);
 
@@ -31,10 +31,35 @@ const About = () => {
         }
     };
 
+    function smoothScroll() {
+        document.querySelector('#logo_img').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+
+    function scrollWindow() {
+        window.scrollBy(0, window.screenY);
+    }
+
   return (
           <>
 
-            <div className="indicator sticky top-4 right-3 scale-75 md:top-6 md:right-5 md:scale-100 lg:top-8 lg:right-8 lg:scale-125 float-right z-[100]">
+            <meta name="theme-color" content="#333a41"/>
+            <div className="hero min-h-screen z-[100]" style={{backgroundImage: "url('/DomCropped.jpg')"}}>
+                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-content text-center text-neutral-content">
+                    <div className="max-w-md">
+                        <h1 className="mb-5 text-5xl font-bold">Whiskers & Wags</h1>
+                        <p className="mb-5">Providing love, help, and home to pets in need</p>
+                        <button className="btn btn-neutral" type="button" onClick={smoothScroll}>Get Started</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className="indicator sticky top-4 right-3 scale-75 
+                md:top-6 md:right-5 md:scale-100 
+                lg:top-9 lg:right-8 lg:scale-125
+                float-right z-[99]">
                 <span className="indicator-item indicator-top indicator-start badge bg-rose-200"></span> 
                 <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
                     <div tabIndex={0} role="button" className="btn text-slate-200 bg-indigo-900 hover:bg-indigo-950">Donate!</div>
@@ -46,7 +71,7 @@ const About = () => {
             </div>
 
 
-            <div className="max-w-lg xl:max-w-xl w-2/3 mx-auto my-8">
+            <div id="logo_img" className="max-w-lg xl:max-w-xl w-2/3 mx-auto mb-8 pt-8">
                 <a href="/"><img src="/color.png" alt="W&W" className="rounded-lg md:rounded-xl lg:rounded-2xl"/></a>
             </div>
 
@@ -151,4 +176,4 @@ const About = () => {
  )
 }
 
-export default About
+export default Page
