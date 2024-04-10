@@ -73,7 +73,7 @@ export default function Home() {
             </div>
 
 
-            <div id="logo_img" className="max-w-lg xl:max-w-xl w-2/3 mx-auto mb-8 mt-8">
+            <div id="logo_img" className="max-w-lg xl:max-w-xl w-2/3 mx-auto mb-8 pt-8">
                 <img src="/color.png" alt="W&W" className="rounded-lg md:rounded-xl lg:rounded-2xl"/>
             </div>
 
