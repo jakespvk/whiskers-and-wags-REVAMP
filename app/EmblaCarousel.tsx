@@ -40,13 +40,13 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     <section className="embla">
       <div className="embla__viewport max-w-screen-lg w-4/5 mx-auto rounded-box" ref={emblaRef}>
         <div className="embla__container">
-            <div className="embla__slide"><img src="/Hashbrown.jpeg" alt="Hashbrown" className="w-full h-full cover" /></div>
-            <div className="embla__slide"><img src="/jerry2.png" alt="Jerry2" className="w-full h-full cover" /></div>
-            <div className="embla__slide"><img src="/Stray.jpg" alt="Stray" className="w-full h-full cover" /></div>
-            <div className="embla__slide"><img src="/jerry1.png" alt="Jerry" className="w-full h-full cover" /></div>
-            <div className="embla__slide"><img src="/Dom2.jpg" alt="Dom" className="w-full h-full cover" /></div>
-            <div className="embla__slide"><img src="/Dwayne.jpg" alt="Dwayne" className="w-full h-full cover" /></div>
-            <div className="embla__slide"><img src="/Shakira1.jpg" alt="Shakira" className="w-full h-full cover" /></div>
+            <div className="embla__slide hover:opacity-45"><a href="https://www.google.com"><img src="/Hashbrown.jpeg" alt="Hashbrown" className="w-full h-full cover" /></a></div>
+            <div className="embla__slide hover:opacity-45"><img src="/jerry2.png" alt="Jerry2" className="w-full h-full cover" /></div>
+            <div className="embla__slide hover:opacity-45"><img src="/Stray.jpg" alt="Stray" className="w-full h-full cover" /></div>
+            <div className="embla__slide hover:opacity-45"><img src="/jerry1.png" alt="Jerry" className="w-full h-full cover" /></div>
+            <div className="embla__slide hover:opacity-45"><img src="/Dom2.jpg" alt="Dom" className="w-full h-full cover" /></div>
+            <div className="embla__slide hover:opacity-45"><img src="/Dwayne.jpg" alt="Dwayne" className="w-full h-full cover" /></div>
+            <div className="embla__slide hover:opacity-45"><img src="/Shakira1.jpg" alt="Shakira" className="w-full h-full cover" /></div>
         </div>
       </div>
 

@@ -66,8 +66,9 @@ export default function Home() {
                 <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
                     <div tabIndex={0} role="button" className="btn text-slate-200 bg-indigo-900 hover:bg-indigo-950">Donate!</div>
                     <ul tabIndex={0} className="dropdown-content z-[100] menu p-2 shadow bg-rose-100 rounded-box min-w-fit w-52">
-                        <li><a href="https://checkout.square.site/merchant/MLVNPNB9FHGQJ/checkout/3ZAIBBF3O5DAAIYFBPDYJTQZ?src=sheet&fbclid=IwAR1QXQ2IINx63sxMgzMJyUbn36ul2Bey4g9EJ92VmJgK98L7wLXBAxsRru0" target="_blank" rel="noreferrer">Square</a></li>
-                        <li><a href="https://account.venmo.com/u/Whiskersandwagsinc?fbclid=IwAR0g76Iomk7m0CcgLcn9z__gkcfBVZQ_FhBVrU9zSegLNtO6TJLku5q8vNQ" target="_blank" rel="noreferrer">Venmo</a></li>
+                        <li><a className="hover:bg-rose-200" href="https://checkout.square.site/merchant/MLVNPNB9FHGQJ/checkout/3ZAIBBF3O5DAAIYFBPDYJTQZ?src=sheet&fbclid=IwAR1QXQ2IINx63sxMgzMJyUbn36ul2Bey4g9EJ92VmJgK98L7wLXBAxsRru0" target="_blank" rel="noreferrer">Square</a></li>
+                        <li><a className="hover:bg-rose-200" href="https://account.venmo.com/u/Whiskersandwagsinc?fbclid=IwAR0g76Iomk7m0CcgLcn9z__gkcfBVZQ_FhBVrU9zSegLNtO6TJLku5q8vNQ" target="_blank" rel="noreferrer">Venmo</a></li>
+                        <li><a className="hover:bg-rose-200" href="https://paws-project.org" target="_blank" rel="noreferrer">Paws Project</a></li>
                     </ul>
                 </div>
             </div>
